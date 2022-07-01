@@ -1,0 +1,41 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: cornflowerblue;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    color: #2d2d2d;
+}
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 15px;
+    box-shadow: 3px , 3px , 10px , 0px #000;
+    padding: 30px 120px;
+    width: 70vw;
+    height: 550px;
+    background-color: darkgrey;
+}
+.text-judul {
+    font-weight: bold;
+    font-size: 30px;
+}
+.form-control , .input-group-text  , .btn{
+    font-size: 14px;
+    border-radius: 10px;
+}
+.text-link {
+    text-decoration: none;
+    color: #000;
+}
+.text-link:hover {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.text-merah {
+    color: red;
+}
