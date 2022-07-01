@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/StyleProduk.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+
+
+    <title>TOMURAH | Toko Serba Murah</title>
+  </head>
+  <body>
+      <!--Awal navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="Beranda.html">
+            <img src="gambar/logo2.png" alt="" width="185" height="50" class="me-2"> <strong>TOMURAH</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto">
+              <input class="form-control me-2" type="search" placeholder="Cari Barang Anda" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="BerandaLogin.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/kategori/kategori.html">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="keranjanglogin.html">Troli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="akun.html">Akun</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tentang Kami</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="AboutUsLogin.html">Abous us</a></li>
+                    <li><a class="dropdown-item" href="FA'Q.html">FA'Q</a></li>
+                    <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                    <li><a class="dropdown-item" href="#">Facebook</a></li>
+                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                    <!--
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir navbar-->
+
+      <!--Awal Breadcrum-->
+      <div class="container">
+        <nav aria-label="breadcrumb" style="background-color: black;" class="mt-3">
+            <ol class="breadcrumb p-3">
+              <li class="breadcrumb-item"><a href="/BerandaLogin.html" class="text-decoration-none">Beranda</a></li>
+              <li class="breadcrumb-item"><a href="/kategori/kategori.html" class="text-decoration-none">Kategori</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Detail Produk</li>
+            </ol>
+          </nav>
+      </div>
+      <!--Akhir Breadcrum-->
+
+      <!--Awal Single Produk-->
+      <div class="container">
+          <div class="row row-produk">
+              <div class="col-lg-5">
+                <figure class="figure">
+                    <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 450px;">
+                    <figcaption class="figure-caption d-flex justify-content-evenly">
+                        <a href="#">
+                            <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/produk/produk1.jpg" class="figure-img img-fluid" style="border-radius: 5px; width: 70px;">
+                        </a>
+                    </figcaption>
+                </figure>
+              </div>
+
+              <div class="col-lg-7">
+                <h4>Headset Gaming RGB | Free Ongkir</h4>
+                <div class="garis-nama"></div>
+                <h3 class="text-muted mb-3">Rp. 675.000</h3>
+
+                <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-minus"></i></button>
+                <span class="mx-4">1</span>
+                <button type="button" class="btn btn-warning btn-sm"><i class="fas fa-plus text-white"></i></button>
+                <span class="mx-5">Tersisa 5 buah </span>
+
+                <div class="btn-produk mt-5">
+                    <a href="#" class="btn btn-dark btn-lg me-4 btn-custom"><i class="fas fa-shopping-cart fs-6 me-2"></i> Masukan Keranjang</a>
+                    <a href="#" class="btn btn-warning btn-lg btn-custom">Beli Sekarang</a>
+                </div>
+              </div>
+          </div>
+          <!--Riview atau deskripsi-->
+          <div class="row row-produk">
+              <div class="col-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="Deskripsi-tab" data-bs-toggle="tab" data-bs-target="#Deskripsi" type="button" role="tab" aria-controls="Deskripsi" aria-selected="true">Deskripsi Produk</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="Review-tab" data-bs-toggle="tab" data-bs-target="#Review" type="button" role="tab" aria-controls="Review" aria-selected="false">Review</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content p-3" id="myTabContent">
+                    <div class="tab-pane fade show active Deskripsi" id="Deskripsi" role="tabpanel" aria-labelledby="Deskripsi-tab">
+                        <p>
+                            Merek : Logitech <br>
+                            Tipe Koneksi : Wireless <br>
+                            Tipe Earphone, Headphone & Headset : Over Ear <br>
+                            Gaming : Ya <br>
+                            Kesesuaian Audio : Handphone, Komputer & Laptop <br>
+                            Jenis Garansi : Garansi Resmi <br>
+                            Masa Garansi : 2 Tahun <br>
+                            Stok : 7 <br>
+                            Dikirim Dari : KOTA SURABAYA - GUBENG, JAWA TIMUR, ID <br>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade Review" id="Review" role="tabpanel" aria-labelledby="Review-tab">
+                        <div class="row">
+                            <div class="col-2 col-md-1">
+                                <img src="gambar/profil/1.png" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <H5 class="review-name">Ayu Nita</H5>
+                                <p class="review-deskripsi">Produk Super Bagus, Packing Aman Bonus bublewarp dan kardus , Pengiriman Cepat</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-2 col-md-1">
+                                <img src="gambar/profil/2.png" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <H5 class="review-name">Ali Abdul</H5>
+                                <p class="review-deskripsi">Pengiriman Cepat</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-2 col-md-1">
+                                <img src="gambar/profil/3.png" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <H5 class="review-name">Dewi Santika</H5>
+                                <p class="review-deskripsi">Packing Aman Bonus bublewarp dan kardus , Mantap Lah Langanan deh disini</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-2 col-md-1">
+                                <img src="gambar/profil/4.png" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <H5 class="review-name">wasityuya</H5>
+                                <p class="review-deskripsi">Overall Bagus lah untuk harga segitu</p>
+                            </div>
+                        </div>
+
+                        <div class="row pt-2">
+                            <div class="col-2 col-md-1">
+                                <img src="gambar/profil/5.png" class="review-img rounded-circle">
+                            </div>
+                            <div class="col">
+                                <H5 class="review-name">Lerry</H5>
+                                <p class="review-deskripsi">Mantap Lah Harga Sangat Ramah Dikantong </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!--Riview atau deskripsi-->
+      </div>
+      <!--Akhir Single Produk-->
+      <br>
+      <br>
+
+
+      <!--Awal Footer-->
+      <footer class="bg-dark p-5 mt-5">
+        <div class="container">
+          <div class="row-md-12">
+            <div class="col">
+              <a href="#" style="text-decoration: none;">
+                <img src="gambar/logo2.png" alt="Logo2" style="width: 35%;">
+              </a>
+              <span style="color: cornflowerblue;" class="ps-1">Copyright @2022 | made with difficulty by <a href="https://www.linkedin.com/in/kevin-heryadi-yunior-75a7b0138/" class="text-decoration-none fw-bold">kevin heryadi yunior</a></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Akhir Footer-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/popper.min.js"></script>
+  </body>
+</html>
